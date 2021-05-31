@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+        .container {
+            width: 80%;
+            background-color: violet;
+            padding: 1rem;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .myimg {
+            width: 400px;
+            height: 200px;
+            margin-bottom: 1rem;
+        }
+        
+        .img-att {
+            text-align: center;
+        }
+        
+        button {
+            padding: 10px;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Dom manipulation</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, totam.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta rerum excepturi obcaecati, officiis laborum dicta aspernatur quas delectus nobis, repellendus mollitia sequi labore dolores fugit at nesciunt? Molestias, nulla quidem!</p>
+        <div>
+            <button type="button" onclick="changetext()">Change Text</button>
+        </div>
+
+    </div>
+    <div class="img-att">
+        <h1>Selector set Attribute and get Attribute</h1>
+        <img id="getnewimage" src="./Henry David Thoreau.png" alt="Img">
+        <div>
+            <button type="button" onclick="changenewImage('./montreal.jpeg')">Change pic</button>
+        </div>
+
+
+
+        <section>
+            <h1>Disply object by Key</h1>
+
+        </section>
+
+
+        <script src="main.js"></script>
+
+</body>
+
+</html>
